@@ -5,6 +5,10 @@ export const Container = styled.div`
   padding: 30px 0;
 
   header {
+    @media (max-width: 1440px) {
+      width: 1100px;
+    }
+
     width: 1280px;
     margin: 0 auto;
     padding: 0 0 160px;

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const FoodsContainer = styled.div`
+  @media (max-width: 1440px) {
+    max-width: 1100px;
+  }
+
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
